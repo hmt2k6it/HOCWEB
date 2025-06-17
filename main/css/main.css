@@ -1,5 +1,11 @@
+h1 {
+  display: none;
+}
 body {
   font-family: Arial;
   margin: 10px;
   padding: 20px;
+}
+input:checked ~ img {
+  display: none;
 }
